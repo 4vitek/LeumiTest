@@ -1,5 +1,4 @@
-# LeumiTest
-Test
+# Leumi task
 
 I've made a simple express server. </br>
 Clone this project. </br>
