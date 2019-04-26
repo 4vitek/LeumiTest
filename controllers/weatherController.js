@@ -59,9 +59,9 @@ module.exports.getWeatherForecast = () => {
                                         });
                         });
                      
-                        let result   = await weatherToCsvService.saveCsv(csvDTOs);
+                        let statusMsg   = await weatherToCsvService.saveCsv(csvDTOs);
                         //also will send data to the client
-                        resolve({weatherList:csvDTOs});
+                        resolve({statusMsg,weatherList:csvDTOs});
                     }catch(error){
                         reject(error);
                     }
