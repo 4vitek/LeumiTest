@@ -7,19 +7,20 @@ const moment  = require('moment');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const csvFolder = path.join(__dirname, `../csv`);  
 
-const csvWriter = createCsvWriter({  
-  path: `${csvFolder}/${'report'}.csv`,
-  header: [
-    {id: 'day', title: 'DAY'},
-    {id: 'maxCityTempr', title: 'city with highest temp'},
-    {id: 'minCityTempr', title: 'city with lowest temp'},
-    {id: 'citiesRain',   title: 'cities with rain'},
-  ]
-});
+
 
 //saving csv file with appropriate data
 module.exports.saveCsv = async (accamlatedArr) =>{
     deleteFile();
+    const csvWriter = createCsvWriter({  
+        path: `${csvFolder}/${'report'}.csv`,
+        header: [
+          {id: 'day', title: 'DAY'},
+          {id: 'maxCityTempr', title: 'city with highest temp'},
+          {id: 'minCityTempr', title: 'city with lowest temp'},
+          {id: 'citiesRain',   title: 'cities with rain'},
+        ]
+    });
     return new Promise((resolve,reject) => {
         csvWriter  
         .writeRecords(accamlatedArr)

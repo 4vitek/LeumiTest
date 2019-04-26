@@ -1,5 +1,6 @@
-Sun Apr 21 2019,Singapore,Oslo,"Jerusalem,Seoul,Singapore"
-Mon Apr 22 2019,Singapore,Oslo,"Lisbon,New York,Singapore"
-Tue Apr 23 2019,Singapore,Oslo,"Paris,Seoul,Lisbon,Berlin,Singapore"
-Wed Apr 24 2019,Singapore,Oslo,"Paris,Seoul,Oslo,Lisbon,New York,Singapore"
-Thu Apr 25 2019,Singapore,Oslo,"Athens,Paris,Seoul,Oslo,Lisbon,Berlin,Singapore"
+DAY,city with highest temp,city with lowest temp,cities with rain
+Sat Apr 27 2019,Jerusalem,Seoul,"Paris,Singapore,Oslo,Berlin,New York"
+Sun Apr 28 2019,Singapore,Paris,"Paris,Oslo,Berlin,New York,Athens"
+Mon Apr 29 2019,Singapore,New York,"Berlin,New York,Athens"
+Tue Apr 30 2019,Singapore,Berlin,"Oslo,New York"
+Wed May 01 2019,Singapore,Berlin,"Paris,Singapore,Oslo,New York,Athens"
