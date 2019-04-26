@@ -7,6 +7,6 @@ insert this url in your browser: </br>
 http://localhost:3000/weather </br>
 or just default http://localhost:3000 </br> 
 You will get a json response with desired data. </br>
-The report.csv file with data will appear in a leumiExamWeatherProj/csv folder. </br> </br>
+The report.csv file with the data will appear in a [PROJECT_NAME]/csv folder. </br> </br>
 
 Good luck.
