@@ -1,6 +1,6 @@
 DAY,city with highest temp,city with lowest temp,cities with rain
-Sat Apr 27 2019,Jerusalem,Seoul,"Berlin,Oslo,New York,Paris,Singapore"
-Sun Apr 28 2019,Singapore,Paris,"Athens,Berlin,Oslo,New York,Paris"
-Mon Apr 29 2019,Singapore,New York,"Athens,Berlin,New York"
+Sat Apr 27 2019,Jerusalem,Seoul,"Oslo,Berlin,Singapore,New York,Paris"
+Sun Apr 28 2019,Singapore,Paris,"Oslo,Berlin,New York,Athens,Paris"
+Mon Apr 29 2019,Singapore,New York,"Berlin,New York,Athens"
 Tue Apr 30 2019,Singapore,Berlin,"Oslo,New York"
-Wed May 01 2019,Singapore,Berlin,"Athens,Oslo,New York,Paris,Singapore"
+Wed May 01 2019,Singapore,Berlin,"Oslo,Singapore,New York,Athens,Paris"
