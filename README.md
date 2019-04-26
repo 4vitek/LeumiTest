@@ -2,7 +2,7 @@
 
 I've made a simple express server. </br>
 Clone or download this project. </br>
-cd to project's package.json directory. </br>
+cd to the project's package.json directory. </br>
 Type the '<b>npm install</b>' command. </br>
 Run the application by <b>'node app.js'</b> command. (For simplicity's sake , I didn't cover a production/development branching.)
 Insert these url addresses in your browser: </br>
